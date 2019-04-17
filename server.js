@@ -35,7 +35,7 @@ connection.once('open', function () {
 //Passport middleware
 app.use(passport.initialize());
 
-//Passpoet Config
+//Passport Config
 require('./config/passport')(passport);
 
 //Use Routes
